@@ -20,7 +20,7 @@ $(document).ready(function(){
     invalidHandler:function(evento,validar){
       let campoIncorretos = validar.numberOfInvalids();
       if(campoIncorretos){
-      alert(`Existem ${campoIncorretos} campos que foram preenchidos`)
+      alert(`Existem ${campoIncorretos} campos que não foram preenchidos`)
     }
     }
       
