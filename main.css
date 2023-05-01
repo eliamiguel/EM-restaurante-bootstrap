@@ -22,6 +22,12 @@ font-family: 'Roboto', sans-serif;
   background-color: #ffeae6;
 
 }
+.tab-pane.active a, .tab-pane.active a:hover{
+  background-color: #e15f41;
+  color: white;
+  font-family: 'Pacifico', cursive;
+  font-weight: bold;
+}
 .text-colored {
   color: #e15f41;
 }
