@@ -17,7 +17,7 @@ $(document).ready(function(){
 
 
     },
-    invalidHandler:function(validar){
+    invalidHandler:function(evento,validar){
       let campoIncorretos = validar.numberOfInvalids();
       if(campoIncorretos){
       alert(`Existem ${campoIncorretos} campos que foram preenchidos`)
